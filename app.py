@@ -6,7 +6,7 @@ import time
 # 基础页面配置
 st.set_page_config(page_title="部落战统计数据看板", layout="wide")
 
-st.title("⚔️ 部落战统计可视化")
+st.title("⚔️ 部落战可视化")
 st.markdown("通过侧边栏上传最新导出的Excel统计文件，即可生成可视化图表与智能趋势报告。")
 
 def process_data(df):
